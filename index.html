@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Udacity Project: Build a Portfolio Site" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="keywords" content="portfolio, HTML, CSS, JS">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="author" content="Iryna Soltyska">
+
+    <base target="_blank">
+
+    <title>Iryna Soltyska - Front End Software Engineer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700">
+
+    <!-- Minified JavaScript, async for js says to the browser that content is safe to download  -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" async></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="row">
+            <div class="col-md-6">
+                <img class="header__logo" src="img_src/city.png" alt="iconic view of a cityscape">
+            </div>
+            <!--/.col-md-6 close -->
+            <div class="header__profile col-md-6">
+                <h1 class="header__name text-thin">Iryna Soltyska</h1>
+                <h2 class="header__description">Cities in Photography</h3>            
+          </div> <!-- /.col-md-6 close -->
+    </header> <!--/.row close -->
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+          <picture>
+            <source media="(max-width: 767px)" srcset="img_src/windows.jpg 400w, img_src/windows.jpg 600w, img_src/windows.jpg 722w, img_src/windows.jpg 800w, img_src/windows.jpg 1024w, img_src/windows.jpg 1200w" sizes="(100vw - 45px)">
+
+            <source media="(min-width: 767px)" srcset="img_src/windows.jpg 400w, img_src/windows.jpg 720w, img_src/windows.jpg 940w, img_src/windows.jpg 1140w" sizes="(min-width: 1200px) 1140px, (min-width: 992px) 940px, 720px">
+            <img class="img-responsive" src="img_src/windows.jpg" alt="Photography of windows in Berlin">
+          </picture>
+        <hr>
+      </div> <!--/.col-md-12 close -->          
+    </div> <!--/.row close -->
+
+    <main class="row">
+        <!-- main content -->
+         <div class="col-md-12">
+          <h3>Featured Photography</h3> 
+         </div> <!-- /.col-md-12 close -->
+
+      <article class="col-sm-6 col-md-4">
+        <div class="city-card">
+          <img srcset="img/berlin-1024-large.jpg 1024w, img/berlin-640-medium.jpg 640w, img/berlin-320-small.jpg 320w" sizes="(min-width: 36em) 33.3vw, 100vw" src="img/berlin-320-small.jpg" alt="Berlin City" class="img-responsive"><h4>Berlin</h4>
+            <p>
+              <a href="https://500px.com/soltyska/galleries/berlin-germany" class="btn btn-default btn-sm btn-block" target="_blank">More Photos</a>
+            </p>
+         </div>
+        <hr class="visible-xs-block">
+      </article>
+
+      <article class="col-sm-6 col-md-4">
+        <div class="city-card">
+         <img srcset="img/lisbon-1024-large.jpg 1024w, img/lisbon-640-medium.jpg 640w, img/lisbon-320-small.jpg 320w" sizes="(min-width: 36em) 33.3vw, 100vw" src="img/lisbon-320-small.jpg" alt="Monument to Portugal's history of exploration in Lisbon" class="img-responsive"><h4>Lisbon</h4>
+           <p>
+            <a href="https://500px.com/soltyska/galleries/portugal" class="btn btn-default btn-sm btn-block">More Photos</a>
+          </p>
+         </div>
+        <hr class="visible-xs-block">
+      </article>
+
+      <article class="col-sm-6 col-md-4">
+        <div class="city-card">
+         <img srcset="img/venice-1024-large.jpg 1024w, img/venice-640-medium.jpg 640w, img/venice-320-small.jpg 320w" sizes="(min-width: 36em) 33.3vw, 100vw" src="img/venice-320-small.jpg" alt="Cosy street in Venice" class="img-responsive"><h4>Venice</h4>
+           <p>
+             <a href="https://500px.com/soltyska/galleries/venice" class="btn btn-default btn-sm btn-block">More Photos</a>
+          </p>
+        </div>
+        <hr class="visible-s-block">
+      </article>      
+    </main> <!--/.row close -->
+
+    <footer class="navbar-default navbar-block-bottom">
+
+    <!--Social buttons-->
+      <div class="footer-social">
+          <ul>
+              <li><a href="https://www.facebook.com/irynaphotographer/"  class="btn-floating btn-fb"><i class="fa fa-facebook fa-2x"> </i></a></li>
+
+              <li><a href="https://github.com/irsol" class="btn-floating btn-git"><i class="fa fa-github fa-2x"> </i></a></li>
+
+              <li><a href="https://500px.com/soltyska" class="btn-floating btn-500px"><i class="fa  fa-500px fa-2x"> </i></a></li>
+
+              <li><a href="https://www.instagram.com/iryna_soltyska/" class="btn-floating btn-ins"><i class="fa fa-instagram fa-2x"> </i></a></li>
+          </ul>
+        </div>
+    <!--/.Social buttons-->
+    </footer>
+  </div> <!--/.container close -->
+</body>
+</html>
