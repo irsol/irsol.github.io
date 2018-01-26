@@ -1,7 +1,7 @@
 
 # Udacity FSND Project - Build a Portfolio
 
-## Link to [my project:](https://irsol.github.io/)
+## [Link to my project](https://irsol.github.io/)
 
 A portfolio website project for the Full Stack Web Developer Nanodegree (or FSND) Program course. 
 
