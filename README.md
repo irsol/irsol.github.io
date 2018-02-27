@@ -13,7 +13,7 @@ Goals:
 ## Project structure
 
 	- index.html - main page of the website
-	- main.css - in css folder contains custom css szyles
+	- main.css - in css folder contains custom css styles
 	- fonts - folder with fonts required by Bootstrap
 	- img - responsive images
 	- img_src - original images
@@ -44,7 +44,6 @@ Gruntjs is a taskrunner that I've used to automate sizes and quality for my phot
 [Bootstrap](http://getbootstrap.com/)
 Bootstrap is an HTML5/CSS3 framework that I've used to help structure my website.
 
-## Run
 
 ### Prepare images
 
