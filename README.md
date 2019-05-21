@@ -48,7 +48,7 @@ Bootstrap is an HTML5/CSS3 framework that I've used to help structure my website
 ### Prepare images
 
 1. Install nodejs by following instructions from [nodejs](https://nodejs.org/en/download/)
-2. Update *nmp* by running following command: _npm install npm@latest -g_
+2. Update *npm* by running following command: _npm install npm@latest -g_
 3. Install *grunt* by following instructions from [grunt](https://gruntjs.com/installing-grunt)
 4. To prepare responsive images run Granjs by typing _grunt_ in the command line.
 
